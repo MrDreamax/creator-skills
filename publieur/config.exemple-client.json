@@ -1,0 +1,10 @@
+{
+  "_doc": "Réglages du Publieur. Remplis au 1er lancement, jamais écrasés par une mise à jour.",
+  "comptes": [],
+  "_comptes": "Ids des comptes Blotato où publier (blotato_list_accounts), cochés par la personne. Jamais un compte non coché.",
+  "timezone": "Europe/Paris",
+  "cta_defaut": "",
+  "_cta_defaut": "Son mot-clé de commentaire (réponse automatique Blotato qui envoie son lead magnet) ou « Écris-moi en DM ».",
+  "cible": "",
+  "_cible": "Sa cible en 1 phrase (sert au mot-clé de la légende)."
+}

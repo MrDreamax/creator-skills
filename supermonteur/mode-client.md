@@ -1,0 +1,11 @@
+# MODE CLIENT
+
+Tout est dans le bloc « CHEZ TOI (client) » en tête de `SKILL.md`. Il passe avant le reste du skill et de `workflow.md`.
+
+## CTA mot à commenter
+- CTA « commente <MOT> » : le mot à commenter TOUJOURS mis en évidence = MAJUSCULES + couleur accent jaune #FFD60A, seulement pendant qu'il est dit (plan.json `couleurs` : [{"mot": "<mot>", "couleur": "#FFD60A", "ecrit": "<MOT>", "start": <début du mot - 0,05>, "end": <fin + 0,05>}]), même police, même taille. Tous styles.
+
+## Cut Notes automatique
+- Cut Notes : CHAQUE version montée (v1 et chaque retouche) ouvre Cut Notes TOUT SEUL, sans demander (`outils/cut-notes/ouvre.py <dossier>` + les 4 gestes), même quand le montage part d'un chat. Jamais une vidéo livrée seule dans le chat.
+
+- **Reel en 2 versions** : la 2e version = même montage, seul le CTA de fin change (voir SKILL.md, « Reel en 2 versions »).

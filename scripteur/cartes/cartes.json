@@ -1,0 +1,270 @@
+{
+ "familles": {
+  "HOOK": [
+   {
+    "code": "H01",
+    "nom": "La Question Ouverte"
+   },
+   {
+    "code": "H02",
+    "nom": "L'Affirmation Surprenante"
+   },
+   {
+    "code": "H03",
+    "nom": "La Stat de l'Ego"
+   },
+   {
+    "code": "H04",
+    "nom": "La Liste Directe"
+   },
+   {
+    "code": "H05",
+    "nom": "La Promesse Contrastée"
+   },
+   {
+    "code": "H06",
+    "nom": "L'Erreur Commune"
+   },
+   {
+    "code": "H07",
+    "nom": "Le Secret Bien Gardé"
+   },
+   {
+    "code": "H08",
+    "nom": "La Citation Philosophique"
+   },
+   {
+    "code": "H09",
+    "nom": "La Confession"
+   },
+   {
+    "code": "H10",
+    "nom": "Le Disclaimer"
+   }
+  ],
+  "FORMAT": [
+   {
+    "code": "F01",
+    "nom": "Face Camera"
+   },
+   {
+    "code": "F02",
+    "nom": "Voix Off"
+   },
+   {
+    "code": "F03",
+    "nom": "Selfie"
+   },
+   {
+    "code": "F04",
+    "nom": "Split Screen"
+   },
+   {
+    "code": "F05",
+    "nom": "Conversation"
+   }
+  ],
+  "CONCEPT": [
+   {
+    "code": "C01",
+    "nom": "Problème - Solution"
+   },
+   {
+    "code": "C02",
+    "nom": "Storytelling"
+   },
+   {
+    "code": "C03",
+    "nom": "Vérité"
+   },
+   {
+    "code": "C04",
+    "nom": "Classement"
+   },
+   {
+    "code": "C05",
+    "nom": "Versus"
+   },
+   {
+    "code": "C06",
+    "nom": "Actualités"
+   },
+   {
+    "code": "C07",
+    "nom": "Avant / Après"
+   },
+   {
+    "code": "C08",
+    "nom": "Étude de cas"
+   }
+  ],
+  "ÉMOTION": [
+   {
+    "code": "E01",
+    "nom": "La Joie"
+   },
+   {
+    "code": "E02",
+    "nom": "La Colère"
+   },
+   {
+    "code": "E03",
+    "nom": "La Curiosité"
+   },
+   {
+    "code": "E04",
+    "nom": "La Peur"
+   },
+   {
+    "code": "E05",
+    "nom": "La Tristesse"
+   },
+   {
+    "code": "E06",
+    "nom": "Le Dégoût"
+   }
+  ],
+  "CTA": [
+   {
+    "code": "CTA01",
+    "nom": "L'Abonnement"
+   },
+   {
+    "code": "CTA02",
+    "nom": "Le Commentaire"
+   },
+   {
+    "code": "CTA03",
+    "nom": "La Vidéo Précédente"
+   },
+   {
+    "code": "CTA04",
+    "nom": "La Punchline"
+   },
+   {
+    "code": "CTA05",
+    "nom": "Le Partage"
+   },
+   {
+    "code": "CTA06",
+    "nom": "Le Message Privé"
+   },
+   {
+    "code": "CTA07",
+    "nom": "La Ressource Gratuite"
+   }
+  ]
+ },
+ "builds": [
+  {
+   "code": "B01",
+   "nom": "Le Problème Agaçant",
+   "cartes": {
+    "hook": "H06",
+    "format": "F01",
+    "concept": "C01",
+    "emotion": "E02",
+    "cta": "CTA01"
+   }
+  },
+  {
+   "code": "B02",
+   "nom": "L'Incroyable Découverte",
+   "cartes": {
+    "hook": "H02",
+    "format": "F01",
+    "concept": "C06",
+    "emotion": "E03",
+    "cta": "CTA01"
+   }
+  },
+  {
+   "code": "B03",
+   "nom": "Le Storyteller",
+   "cartes": {
+    "hook": "H09",
+    "format": "F02",
+    "concept": "C02",
+    "emotion": "E03",
+    "cta": "CTA02"
+   }
+  },
+  {
+   "code": "B04",
+   "nom": "L'Aveu",
+   "cartes": {
+    "hook": "H09",
+    "format": "F03",
+    "concept": "C02",
+    "emotion": "E05",
+    "cta": "CTA06"
+   }
+  },
+  {
+   "code": "B05",
+   "nom": "Le Bien vs Le Mal",
+   "cartes": {
+    "hook": "H06",
+    "format": "F04",
+    "concept": "C05",
+    "emotion": "E03",
+    "cta": "CTA01"
+   }
+  },
+  {
+   "code": "B06",
+   "nom": "La Transformation",
+   "cartes": {
+    "hook": "H05",
+    "format": "F02",
+    "concept": "C07",
+    "emotion": "E01",
+    "cta": "CTA05"
+   }
+  },
+  {
+   "code": "B07",
+   "nom": "La Vérité Difficile",
+   "cartes": {
+    "hook": "H08",
+    "format": "F01",
+    "concept": "C03",
+    "emotion": "E04",
+    "cta": "CTA04"
+   }
+  },
+  {
+   "code": "B08",
+   "nom": "Le Top 10",
+   "cartes": {
+    "hook": "H04",
+    "format": "F01",
+    "concept": "C04",
+    "emotion": "E03",
+    "cta": "CTA02"
+   }
+  },
+  {
+   "code": "B09",
+   "nom": "Le Coup de Gueule",
+   "cartes": {
+    "hook": "H02",
+    "format": "F03",
+    "concept": "C03",
+    "emotion": "E02",
+    "cta": "CTA02"
+   }
+  },
+  {
+   "code": "B10",
+   "nom": "Le Complotiste",
+   "cartes": {
+    "hook": "H07",
+    "format": "F03",
+    "concept": "C06",
+    "emotion": "E04",
+    "cta": "CTA04"
+   }
+  }
+ ]
+}
